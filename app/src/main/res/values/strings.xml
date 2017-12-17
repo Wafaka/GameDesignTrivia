@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Game Design Trivia</string>
+    <string name="name">Enter Your Name</string>
+    <string name="title">Test Your Knowledge in Game Design</string>
+
+    <string name="Q1Label">Q1</string>
+    <string name="Q1">A fictional character in a game with whom the player identifies as the personification of herself within the game world is the definition of a/an: </string>
+    <string name="Q1_hint">Write Your Answer Here</string>
+
+    <string name="Q2Label">Q2</string>
+    <string name="Q2">The first home video game console is: </string>
+    <string name="A2_1">Atari</string>
+    <string name="A2_2">Nintendo Entertainment System</string>
+    <string name="A2_3">Magnavox Odyssey</string>
+    <string name="A2_4">Sega Master System</string>
+
+    <string name="Q3Label">Q3</string>
+    <string name="Q3">Games are a type of play activity, conducted in the context of a pretended reality, in which the participant(s) try to achieve goals by acting in accordance with rules. The essential elements of games are:</string>
+    <string name="A3_1">Goals</string>
+    <string name="A3_2">Reality</string>
+    <string name="A3_3">Play</string>
+    <string name="A3_4">Pretending</string>
+
+    <string name="Q4Label">Q4</string>
+    <string name="Q4">Challenges in games are the obstacles that prevent the player from achieving a certain goal. For example, the challenge aspect in Tetris game can be considered as: </string>
+    <string name="A4_1">Time and physical coordination</string>
+    <string name="A4_2">Memory and knowledge</string>
+    <string name="A4_3">Exploration</string>
+    <string name="A4_4">Conceptual reasoning</string>
+
+    <string name="Q5Label">Q5</string>
+    <string name="Q5">A gameplay is a computer software program that simplifies the design process by conversion into computer code.</string>
+    <string name="A5_1">True</string>
+    <string name="A5_2">False</string>
+
+    <string name="Q6Label">Q6</string>
+    <string name="Q6">A type of players who are motivated to play when gaining points, levels, trophies, and other measurements of succeeding in a game.</string>
+    <string name="A6_1">Socializers</string>
+    <string name="A6_2">Killers</string>
+    <string name="A6_3">Achievers</string>
+    <string name="A6_4">Explorers</string>
+
+    <string name="Q7Label">Q7</string>
+    <string name="Q7">Explorers are likely to enjoy playing:</string>
+    <string name="A7_1">Fighting games</string>
+    <string name="A7_2">Adventure games</string>
+    <string name="A7_3">Sports and racing games</string>
+    <string name="A7_4">Strategy games</string>
+
+</resources>

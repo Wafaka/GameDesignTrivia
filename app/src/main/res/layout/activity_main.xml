@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.videogametrivia.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            style="@style/ImageStyle"
+            android:contentDescription="@string/Q1Label"
+            android:src="@drawable/img1" />
+
+        <!-- First Question Starts Here -->
+        <LinearLayout style="@style/QuestionTemplate">
+
+            <LinearLayout style="@style/QuestionHorizontalGroup">
+
+                <TextView
+                    android:id="@+id/question1Label"
+                    style="@style/QuestionLabel"
+                    android:text="@string/Q1Label" />
+
+                <TextView
+                    style="@style/QuestionTextStyle"
+                    android:text="@string/Q1" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/q1_answer"
+                style="@style/EditStyle"
+                android:hint="@string/Q1_hint" />
+
+        </LinearLayout>
+
+        <View style="@style/DividerStyle" />
+
+        <ImageView
+            style="@style/ImageStyle"
+            android:contentDescription="@string/A2_3"
+            android:src="@drawable/img2" />
+
+        <!-- Second Question Starts Here -->
+        <LinearLayout style="@style/QuestionTemplate">
+
+            <LinearLayout style="@style/QuestionHorizontalGroup">
+
+                <TextView
+                    style="@style/QuestionLabel"
+                    android:text="@string/Q2Label" />
+
+                <TextView
+                    style="@style/QuestionTextStyle"
+                    android:text="@string/Q2" />
+
+            </LinearLayout>
+
+            <RadioGroup style="@style/RadioGroupStyle">
+
+                <RadioButton
+                    style="@style/AnswerTextStyle"
+                    android:text="@string/A2_1" />
+
+                <RadioButton
+                    style="@style/AnswerTextStyle"
+                    android:text="@string/A2_2" />
+
+                <RadioButton
+                    android:id="@+id/q2_correct_answer"
+                    style="@style/AnswerTextStyle"
+                    android:text="@string/A2_3" />
+
+                <RadioButton
+                    style="@style/AnswerTextStyle"
+                    android:text="@string/A3_4" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <View style="@style/DividerStyle" />
+
+        <ImageView
+            style="@style/ImageStyle"
+            android:contentDescription="@string/Q3Label"
+            android:src="@drawable/img3" />
+
+        <!-- Third Question Starts Here -->
+        <LinearLayout style="@style/QuestionTemplate">
+
+            <LinearLayout style="@style/QuestionHorizontalGroup">
+
+                <TextView
+                    style="@style/QuestionLabel"
+                    android:text="@string/Q3Label" />
+
+                <TextView
+                    style="@style/QuestionTextStyle"
+                    android:text="@string/Q3" />
+
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/q3_correct_answer1"
+                style="@style/AnswerTextStyle"
+                android:text="@string/A3_1" />
+
+            <CheckBox
+                android:id="@+id/q3_wrong_answer"
+                style="@style/AnswerTextStyle"
+                android:text="@string/A3_2" />
+
+            <CheckBox
+                android:id="@+id/q3_correct_answer2"
+                style="@style/AnswerTextStyle"
+                android:text="@string/A3_3" />
+
+            <CheckBox
+                android:id="@+id/q3_correct_answer3"
+                style="@style/AnswerTextStyle"
+                android:text="@string/A3_4" />
+
+        </LinearLayout>
+
+        <View style="@style/DividerStyle" />
+
+        <ImageView
+            style="@style/ImageStyle"
+            android:contentDescription="@string/Q4Label"
+            android:src="@drawable/img4" />
+
+        <!-- Fourth Question Starts Here -->
+        <LinearLayout style="@style/QuestionTemplate">
+
+            <LinearLayout style="@style/QuestionHorizontalGroup">
+
+                <TextView
+                    style="@style/QuestionLabel"
+                    android:text="@string/Q4Label" />
+
+                <TextView
+                    style="@style/QuestionTextStyle"
+                    android:text="@string/Q4" />
+
+            </LinearLayout>
+
+            <RadioGroup style="@style/RadioGroupStyle">
+
+                <RadioButton
+                    android:id="@+id/q4_correct_answer"
+                    style="@style/AnswerTextStyle"
+                    android:text="@string/A4_1" />
+
+                <RadioButton
+                    style="@style/AnswerTextStyle"
+                    android:text="@string/A4_2" />
+
+                <RadioButton
+                    style="@style/AnswerTextStyle"
+                    android:text="@string/A4_3" />
+
+                <RadioButton
+                    style="@style/AnswerTextStyle"
+                    android:text="@string/A4_4" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <View style="@style/DividerStyle" />
+
+        <ImageView
+            style="@style/ImageStyle"
+            android:contentDescription="@string/Q5Label"
+            android:src="@drawable/img5" />
+
+        <!-- Fifth Question Starts Here -->
+        <LinearLayout style="@style/QuestionTemplate"
+            android:orientation="vertical">
+
+            <LinearLayout style="@style/QuestionHorizontalGroup">
+
+                <TextView
+                    style="@style/QuestionLabel"
+                    android:text="@string/Q5Label" />
+
+                <TextView
+                    style="@style/QuestionTextStyle"
+                    android:text="@string/Q5" />
+
+            </LinearLayout>
+
+            <RadioGroup style="@style/RadioGroupStyle">
+
+                <RadioButton
+                    style="@style/AnswerTextStyle"
+                    android:text="@string/A5_1" />
+
+                <RadioButton
+                    android:id="@+id/q5_correct_answer"
+                    style="@style/AnswerTextStyle"
+                    android:text="@string/A5_2" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View style="@style/DividerStyle" />
+
+        <ImageView
+            style="@style/ImageStyle"
+            android:contentDescription="@string/Q6Label"
+            android:src="@drawable/img6" />
+
+        <!-- Sixth Question Starts Here -->
+        <LinearLayout style="@style/QuestionTemplate"
+            android:orientation="vertical">
+
+            <LinearLayout style="@style/QuestionHorizontalGroup">
+
+                <TextView
+                    style="@style/QuestionLabel"
+                    android:text="@string/Q6Label" />
+
+                <TextView
+                    style="@style/QuestionTextStyle"
+                    android:text="@string/Q6" />
+
+            </LinearLayout>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    style="@style/AnswerTextStyle"
+                    android:text="@string/A6_1" />
+
+                <RadioButton
+                    style="@style/AnswerTextStyle"
+                    android:text="@string/A6_2" />
+
+                <RadioButton
+                    android:id="@+id/q6_correct_answer"
+                    style="@style/AnswerTextStyle"
+                    android:text="@string/A6_3" />
+
+                <RadioButton
+                    style="@style/AnswerTextStyle"
+                    android:text="@string/A6_4" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <View style="@style/DividerStyle" />
+
+        <ImageView
+            style="@style/ImageStyle"
+            android:contentDescription="@string/Q7Label"
+            android:src="@drawable/img7" />
+
+        <!-- Seventh Question Starts Here -->
+        <LinearLayout style="@style/QuestionTemplate">
+
+            <LinearLayout style="@style/QuestionHorizontalGroup">
+
+                <TextView
+                    android:id="@+id/question7Label"
+                    style="@style/QuestionLabel"
+                    android:text="@string/Q7Label" />
+
+                <TextView
+                    style="@style/QuestionTextStyle"
+                    android:text="@string/Q7" />
+
+            </LinearLayout>
+
+            <RadioGroup style="@style/RadioGroupStyle">
+
+                <RadioButton
+                    style="@style/AnswerTextStyle"
+                    android:text="@string/A7_1" />
+
+                <RadioButton
+                    android:id="@+id/q7_correct_answer"
+                    style="@style/AnswerTextStyle"
+                    android:text="@string/A7_2" />
+
+                <RadioButton
+                    style="@style/AnswerTextStyle"
+                    android:text="@string/A7_3" />
+
+                <RadioButton
+                    style="@style/AnswerTextStyle"
+                    android:text="@string/A7_4" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <View style="@style/DividerStyle" />
+
+        <!-- Display Score Button -->
+        <Button
+            android:id="@+id/displayButton"
+            style="@style/ButtonStyle"
+            android:onClick="getScore" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layoutMargins">16dp</dimen>
+    <dimen name="largeLayoutMargins">32dp</dimen>
+    <dimen name="boxMargins1">8dp</dimen>
+    <dimen name="boxMargins2">4dp</dimen>
+    <dimen name="buttonHeight">36dp</dimen>
+</resources>
